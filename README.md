@@ -47,7 +47,7 @@ Aggregate various files / pages if needed.
 
 ![train model](4_train_model.png)
 
-### 5. Use the Model to Predict Run Duration
+### 5. Use the Model to Predict Run Durations
 
 	python3 5_use_model.py
 
