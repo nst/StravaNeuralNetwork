@@ -43,6 +43,13 @@ Aggregate various files / pages if needed.
 
 ### 4. Normalize Data and Train the Model
 
+	model = tf.keras.models.Sequential([
+	    tf.keras.layers.InputLayer(input_shape=(3,)),
+	    tf.keras.layers.Dense(64, activation='relu'),
+	    tf.keras.layers.Dense(32, activation='relu'),
+	    tf.keras.layers.Dense(1)
+	])
+
     python3 4_train_model.py
 
 ![train model](4_train_model.png)
