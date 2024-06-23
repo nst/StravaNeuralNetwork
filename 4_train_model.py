@@ -54,11 +54,11 @@ model = tf.keras.models.Sequential([
     tf.keras.layers.Dense(1)
 ])
 
-# Compile the model
-model.compile(optimizer='adam', loss='mse')
+# Compile the model with a lower learning rate
+model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=0.00001), loss='mse')
 
 # Train the model
-history = model.fit(X_train_scaled, y_train_scaled, epochs=50, validation_split=0.2, verbose=1)
+history = model.fit(X_train_scaled, y_train_scaled, epochs=1000, validation_split=0.2, verbose=1)
 
 # Save the model
 model.save('strava_model.h5')

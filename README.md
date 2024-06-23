@@ -58,7 +58,7 @@ Aggregate various files / pages if needed.
 
 	python3 5_use_model.py
 
-	Predicted time for 10 km,  600 D+, race 0: 01:21
-	Predicted time for 31 km, 2300 D+, race 1: 04:23
-	Predicted time for  5 km,  850 D+, race 0: 01:09
-	Predicted time for 10 km,   90 D+, race 0: 00:45
+    Predicted time for 10 km, 600 D+, race 0: 01:23
+    Predicted time for 31 km, 2300 D+, race 1: 04:15
+    Predicted time for 5 km, 850 D+, race 0: 01:16
+    Predicted time for 10 km, 90 D+, race 0: 00:52
